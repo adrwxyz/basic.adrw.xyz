@@ -4,13 +4,13 @@ import { transparentize } from 'polished'
 import { Link } from 'gatsby'
 
 import { heights, dimensions, colors } from '../styles/variables'
-import Container from './Container'
+import { Container } from '../components'
 
 const StyledHeader = styled.header`
   height: ${heights.header}px;
   padding: 0 ${dimensions.containerPadding}rem;
-  background-color: ${colors.brand};
-  color: ${transparentize(0.5, colors.white)};
+  // background-color: ${colors.brand};
+  color: ${transparentize(0.5, colors.brand)};
 `
 
 const HeaderInner = styled(Container)`
@@ -21,7 +21,7 @@ const HeaderInner = styled(Container)`
 `
 
 const HomepageLink = styled(Link)`
-  color: ${colors.white};
+  color: ${colors.brand};
   font-size: 1.5rem;
   font-weight: 600;
 
@@ -31,16 +31,24 @@ const HomepageLink = styled(Link)`
   }
 `
 
+const Logo = styled.img`
+  max-height: 100px;
+`
+
 interface HeaderProps {
-  title: string
+  title?: string
+  logo?: string
 }
 
-const Header: React.SFC<HeaderProps> = ({ title }) => (
+const Header: React.SFC<HeaderProps> = ({ title, logo }) => (
   <StyledHeader>
     <HeaderInner>
+      <Link to="/">
+        <img src={logo} />
+      </Link>
       <HomepageLink to="/">{title}</HomepageLink>
     </HeaderInner>
   </StyledHeader>
 )
 
-export default Header
+export { Header }

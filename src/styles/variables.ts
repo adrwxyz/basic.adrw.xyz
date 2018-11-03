@@ -1,7 +1,7 @@
 /* tslint:disable:max-line-length */
 
 export const colors = {
-  brand: '#663399',
+  brand: '#333',
   lilac: '#9d7cbf',
   accent: '#ffb238',
   success: '#37b635',
@@ -23,7 +23,7 @@ export const colors = {
 
 export const fonts = {
   sansSerif:
-    '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif',
+    'Avenir Next, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif',
   serif: 'Georgia, "Times New Roman", Times, serif',
   monospace: 'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace, monospace'
 }

@@ -2,13 +2,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    title: 'ADRW Digital | Andrew Paradi Alexander',
+    description: 'ADRW',
+    siteUrl: 'https://www.adrw.xyz/',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
+      name: 'ADRW Digital',
+      url: 'http://g.adrw.ch/adrw.xyz',
+      email: 'code@adrw.ch'
     }
   },
   plugins: [
@@ -47,10 +47,17 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://www.adrw.xyz/'
       }
     },
     'gatsby-plugin-emotion',
+    // {
+    //   resolve: 'gatsby-plugin-netlify-cms',
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`
+    //   }
+    // },
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',

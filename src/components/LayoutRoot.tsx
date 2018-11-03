@@ -15,4 +15,4 @@ const LayoutRoot: React.SFC<LayoutRootProps> = ({ children, className }) => (
   <StyledLayoutRoot className={className}>{children}</StyledLayoutRoot>
 )
 
-export default LayoutRoot
+export { LayoutRoot }

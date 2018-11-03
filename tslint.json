@@ -1,5 +1,6 @@
 {
-  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rulesDirectory": ["tslint-plugin-pr569954
+    ettier"],
   "extends": ["tslint-config-blvd/react", "tslint-config-prettier"],
   "rules": {
     "prettier": true

@@ -15,4 +15,4 @@ const LayoutMain: React.SFC<LayoutMainProps> = ({ children, className }) => (
   <StyledLayoutMain className={className}>{children}</StyledLayoutMain>
 )
 
-export default LayoutMain
+export { LayoutMain }

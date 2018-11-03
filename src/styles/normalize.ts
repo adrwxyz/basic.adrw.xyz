@@ -28,15 +28,18 @@ injectGlobal`
     background-color: ${colors.white};
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    background-image: url("img/00015c.png")
   }
 
   a {
     color: ${colors.brand};
     text-decoration: none;
+    border-bottom: 2px solid;
 
     &:hover,
     &:focus {
-      text-decoration: underline;
+      text-decoration: none;
+      border-bottom: 4px solid;
     }
   }
 
@@ -89,7 +92,7 @@ injectGlobal`
     margin-top: 1.414rem;
     margin-bottom: .5rem;
     color: ${colors.black};
-    font-weight: 600;
+    font-weight: 500;
     line-height: ${dimensions.lineHeight.heading};
     text-rendering: optimizeLegibility;
   }
