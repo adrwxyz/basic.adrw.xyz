@@ -1,6 +1,7 @@
-import * as React from 'react'
-import styled from 'react-emotion'
-import { Container, Page } from '../components'
+import { Link } from "gatsby"
+import * as React from "react"
+import styled from "react-emotion"
+import { Container, Page } from "../components"
 
 interface FooterProps {
   className?: string
@@ -14,7 +15,7 @@ const Footer: React.SFC<FooterProps> = ({ className }) => (
   <Container>
     <Page>
       <StyledFooter className={className}>
-        &copy; <a href="https://adrw.xyz/">ADRW Digital</a> 2009-
+        &copy; <Link to="/">ADRW Digital</Link> 2009-
         {new Date().getFullYear()}
       </StyledFooter>
     </Page>

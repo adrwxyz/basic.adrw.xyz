@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
+import * as React from "react"
 
-import { Container, Header, Page } from '../components'
-import IndexLayout from '../layouts'
+import { Container, Page } from "../components"
+import IndexLayout from "../layouts"
 
 const IndexPage = () => (
   <IndexLayout>
     <Page>
       <Container>
-        <h1>Andrew Paradi</h1>
+        <h1>Andrew Paradi Alexander</h1>
         <p>
-          Andrew is a software engineer at Square building scalable infrastructure for the growing Cash App. He graduated from University of
-          Waterloo Computer Science in April 2018.
+          Andrew is a software engineer at Square building scalable
+          infrastructure for the growing Cash App. He graduated from University
+          of Waterloo Computer Science in April 2018.
         </p>
         <h5>
           <a href="http://adrw.ch/about">About</a>
@@ -40,28 +40,43 @@ const IndexPage = () => (
         <h5>
           <a href="http://li.adrw.ch/">LinkedIn</a>
         </h5>
+        <br />
+        <br />
+        <br />
         <h1>ADRW Digital</h1>
-        <p>Andrew has extensive experience helping teams ship products and marketing sales copy that better resonates with users.</p>
         <p>
-          Check out past projects below. When you're ready, <a href="mailto:contact@adrw.xyz">contact Andrew</a> to discuss how ADRW Digital
-          can help your team thrive.
+          Andrew has extensive experience helping teams ship products and
+          marketing sales copy that better resonates with users.
+        </p>
+        <p>
+          Check out past projects below. When you're ready,{" "}
+          <a href="mailto:contact@adrw.xyz">contact Andrew</a> to discuss how
+          ADRW Digital can help your team thrive.
         </p>
         <ul>
           <li>
-            <a href="http://www.adrw.ch/blog/videostream-how-growth-starts-with-great-customer-support">Videostream</a>: Optimized new
-            website & sales copy to boost weekly downloads 32% + active users 12% for 1.2M user app
+            <a href="http://www.adrw.ch/blog/videostream-how-growth-starts-with-great-customer-support">
+              Videostream
+            </a>
+            : Optimized new website & sales copy to boost weekly downloads 32% +
+            active users 12% for 1.2M user app
           </li>
           <li>
-            <a href="http://www.adrw.ch/project/atomic">Atomic.VC</a>: Built in 16 weeks from scratch 7 robust apps (5 React/Redux/KoaJS, 2
-            iOS) for new VC vetted & funded ideas
+            <a href="http://www.adrw.ch/project/atomic">Atomic.VC</a>: Built in
+            16 weeks from scratch 7 robust apps (5 React/Redux/KoaJS, 2 iOS) for
+            new VC vetted & funded ideas
           </li>
           <li>
-            <a href="http://www.adrw.ch/project/christian-embassy">Christian Embassy</a>: New Wordpress website for ministry to Diplomats
-            and MPs
+            <a href="http://www.adrw.ch/project/christian-embassy">
+              Christian Embassy
+            </a>
+            : New Wordpress website for ministry to Diplomats and MPs
           </li>
           <li>
-            <a href="http://www.adrw.ch/project/franks-jewellers">Frank's Jewellers</a>: New Wordpress website for 100 year old Waterloo
-            shop
+            <a href="http://www.adrw.ch/project/franks-jewellers">
+              Frank's Jewellers
+            </a>
+            : New Wordpress website for 100 year old Waterloo shop
           </li>
         </ul>
         <h5>
@@ -70,7 +85,6 @@ const IndexPage = () => (
         <h5>
           <a href="https://github.com/adrw">GitHub Projects</a>
         </h5>
-        <Link to="/a-markdown-page/">Show me some Markdown!</Link>
       </Container>
     </Page>
   </IndexLayout>
