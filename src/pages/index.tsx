@@ -9,9 +9,10 @@ const IndexPage = () => (
       <Container>
         <h1>Andrew Paradi Alexander</h1>
         <p>
-          Andrew is a software engineer at Square building scalable
-          infrastructure for the growing Cash App. He graduated from University
-          of Waterloo Computer Science in April 2018.
+          I'm a software engineer at Square building
+          [Misk](https://github.com/square/misk) and [Misk
+          Web](https://github.com/square/misk-web) scalable platforms for the
+          Cash App. I studied Computer Science at University of Waterloo.
         </p>
         <h5>
           <a href="http://adrw.ch/about">About</a>
@@ -45,13 +46,15 @@ const IndexPage = () => (
         <br />
         <h1>ADRW Digital</h1>
         <p>
-          Andrew has extensive experience helping teams ship products and
-          marketing sales copy that better resonates with users.
+          I have experience helping startups successfully describe their product
+          and team to customers, VCs, and judging panels. If you're looking to
+          improve your hit rate in your next product launch, funding round, or
+          competition, let's talk.
         </p>
         <p>
-          Check out past projects below. When you're ready,{" "}
-          <a href="mailto:contact@adrw.xyz">contact Andrew</a> to discuss how
-          ADRW Digital can help your team thrive.
+          Check out past projects below. If you're looking to improve your hit
+          rate in your next product launch, funding round, or competition,{" "}
+          <a href="mailto:contact@adrw.xyz">let's talk</a>.
         </p>
         <ul>
           <li>
@@ -67,16 +70,11 @@ const IndexPage = () => (
             new VC vetted & funded ideas
           </li>
           <li>
-            <a href="http://www.adrw.ch/project/christian-embassy">
-              Christian Embassy
+            <a href="http://www.adrw.ch/project/teknically-webplio">
+              Teknically
             </a>
-            : New Wordpress website for ministry to Diplomats and MPs
-          </li>
-          <li>
-            <a href="http://www.adrw.ch/project/franks-jewellers">
-              Frank's Jewellers
-            </a>
-            : New Wordpress website for 100 year old Waterloo shop
+            : Developed presentations and written descriptions of Webplio
+            product to win over $65,000 in different competitions and grants.
           </li>
         </ul>
         <h5>
