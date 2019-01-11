@@ -9,10 +9,11 @@ const IndexPage = () => (
       <Container>
         <h1>Andrew Paradi Alexander</h1>
         <p>
-          I'm a software engineer at Square building
-          [Misk](https://github.com/square/misk) and [Misk
-          Web](https://github.com/square/misk-web) scalable platforms for the
-          Cash App. I studied Computer Science at University of Waterloo.
+          I'm a software engineer at Square building{" "}
+          <a href="https://github.com/square/misk">Misk</a> and{" "}
+          <a href="https://github.com/square/misk-web">Misk-Web</a> scalable
+          platforms for the Cash App. I studied Computer Science at University
+          of Waterloo.
         </p>
         <h5>
           <a href="http://adrw.ch/about">About</a>
