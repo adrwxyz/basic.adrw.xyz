@@ -12,6 +12,7 @@ type StaticQueryProps = {
     siteMetadata: {
       title: string
       description: string
+      logo: string
     }
   }
 }
@@ -37,7 +38,7 @@ const IndexLayout: React.SFC = ({ children }) => (
             { name: 'keywords', content: 'gatsbyjs, gatsby, javascript, sample, something' }
           ]}
         />
-        <Header title={data.site.siteMetadata.title} />
+        <Header title={data.site.siteMetadata.title} logo={data.site.siteMetadata.logo} />
         <LayoutMain>
           {children}
           <Footer />

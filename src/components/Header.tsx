@@ -44,7 +44,7 @@ const Header: React.SFC<HeaderProps> = ({ title, logo }) => (
   <StyledHeader>
     <HeaderInner>
       <Link to="/">
-        <img src={logo} />
+        <Logo src={logo} />
       </Link>
       <HomepageLink to="/">{title}</HomepageLink>
     </HeaderInner>

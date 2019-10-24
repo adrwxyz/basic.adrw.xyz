@@ -4,6 +4,7 @@ module.exports = {
   siteMetadata: {
     title: "ADRW Digital",
     description: "ADRW",
+    logo: "/img/adrw-digital.png",
     siteUrl: "https://www.adrw.xyz/",
     author: {
       name: "ADRW Digital",
