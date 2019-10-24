@@ -25,6 +25,7 @@ const IndexLayout: React.SFC = ({ children }) => (
           siteMetadata {
             title
             description
+            logo
           }
         }
       }

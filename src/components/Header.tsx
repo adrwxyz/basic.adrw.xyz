@@ -33,6 +33,7 @@ const HomepageLink = styled(Link)`
 
 const Logo = styled.img`
   max-height: 100px;
+  padding: 5px;
 `
 
 interface HeaderProps {
@@ -40,15 +41,15 @@ interface HeaderProps {
   logo?: string
 }
 
-const Header: React.SFC<HeaderProps> = ({ title, logo }) => (
+const Header: React.SFC<HeaderProps> = ({ title, logo }) => {
+  console.log("LOGO", logo)
+  return (
   <StyledHeader>
     <HeaderInner>
-      <Link to="/">
-        <Logo src={logo} />
-      </Link>
-      <HomepageLink to="/">{title}</HomepageLink>
+      <Logo src={logo} />
+      {logo === "" && <HomepageLink to="/">{title}</HomepageLink>}
     </HeaderInner>
   </StyledHeader>
-)
+)}
 
 export { Header }
