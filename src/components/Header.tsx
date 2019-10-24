@@ -8,7 +8,7 @@ import { Container } from '../components'
 
 const StyledHeader = styled.header`
   height: ${heights.header}px;
-  padding: 0 ${dimensions.containerPadding}rem;
+  padding: 5rem ${dimensions.containerPadding}rem;
   // background-color: ${colors.brand};
   color: ${transparentize(0.5, colors.brand)};
 `
