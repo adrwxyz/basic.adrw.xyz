@@ -8,8 +8,7 @@ const IndexPage = () => (
     <Page>
       <Container>
         <p>
-          ADRW Digital consults and helps startups successfully describe their
-          product and team to customers, VCs, and judging panels.
+          ADRW Digital provides startup and small business consulting to help teams successfully describe their product and business to customers, VCs, and judging panels.
         </p>
         <p>
           Check out past projects below. If you're looking to improve your hit
