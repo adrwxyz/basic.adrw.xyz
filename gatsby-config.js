@@ -1,8 +1,8 @@
-"use strict"
+"use strict";
 
 module.exports = {
   siteMetadata: {
-    title: "ADRW Digital | Andrew Paradi Alexander",
+    title: "ADRW Digital",
     description: "ADRW",
     siteUrl: "https://www.adrw.xyz/",
     author: {
@@ -63,4 +63,4 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet"
   ]
-}
+};
