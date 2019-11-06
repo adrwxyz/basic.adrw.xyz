@@ -1,22 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: "adrw.xyz"
+    title: `ADRW Digital`,
+    description: `Make your next pitch, website, or customer facing product a winner.`,
+    siteUrl: "https://adrw.xyz",
+    author: `@adrw`
   },
   plugins: [
     {
-      resolve: "@westegg/gatsby-theme-digital-garden",
+      resolve: "@westegg/gatsby-theme-core",
       options: {
-        header: {
-          home: {
-            href: "/",
-            label: "/img/logos/h.png"
-          },
-          links: []
+        mdx: true,
+        mdxLayouts: {
+          default: require.resolve("./src/components/layout.js")
         },
-        notesPath: "/notes",
-        postsPath: "/blog",
-        projectsPath: "/projects",
-        projects: "projects"
+        mdxShowToc: false
       }
     }
   ]
