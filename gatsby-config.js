@@ -1,67 +1,23 @@
-"use strict";
-
 module.exports = {
   siteMetadata: {
-    title: "ADRW Digital",
-    description: "ADRW",
-    logo: "/img/adrw-digital.png",
-    siteUrl: "https://www.adrw.xyz/",
-    author: {
-      name: "ADRW Digital",
-      url: "http://g.adrw.ch/adrw.xyz",
-      email: "code@adrw.ch"
-    }
+    title: "adrw.xyz"
   },
   plugins: [
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "@westegg/gatsby-theme-digital-garden",
       options: {
-        name: "content",
-        path: `${__dirname}/src/content`
-      }
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-responsive-iframe",
-            options: {
-              wrapperStyle: "margin-bottom: 1rem"
-            }
+        header: {
+          home: {
+            href: "/",
+            label: "/img/logos/h.png"
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1140,
-              quality: 90,
-              linkImagesToOriginal: false
-            }
-          }
-        ]
+          links: []
+        },
+        notesPath: "/notes",
+        postsPath: "/blog",
+        projectsPath: "/projects",
+        projects: "projects"
       }
-    },
-    "gatsby-transformer-json",
-    {
-      resolve: "gatsby-plugin-canonical-urls",
-      options: {
-        siteUrl: "https://www.adrw.xyz/"
-      }
-    },
-    "gatsby-plugin-emotion",
-    // {
-    //   resolve: 'gatsby-plugin-netlify-cms',
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/cms.js`
-    //   }
-    // },
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-react-helmet"
+    }
   ]
-};
+}
