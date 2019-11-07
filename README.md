@@ -2,4 +2,4 @@
 
 [ADRW Digital](https://adrw.xyz/)
 
-[![CircleCI](https://circleci.com/gh/adrw/adrw.xyz.svg?style=svg)](https://circleci.com/gh/adrw/adrw.xyz) [![Netlify Status](https://api.netlify.com/api/v1/badges/22667c9d-c088-4ae0-b75d-8a99e11d3167/deploy-status)](https://app.netlify.com/sites/adrwxyz/deploys)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhttps%3A%2F%2Fgithub.com%2Fadrwxyz%2Fadrw.xyz%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/https://github.com/adrwxyz/adrw.xyz/goto?ref=master)
