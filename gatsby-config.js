@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ADRW Digital`,
     description: `Make your next pitch, website, or customer facing product a winner.`,
-    siteUrl: "https://adrw.xyz",
+    siteUrl: "https://basic.adrw.xyz",
     author: `@adrw`
   },
   plugins: [
